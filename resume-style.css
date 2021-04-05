@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+#landing{
+    padding-top: 3%;
+    margin-left: 2%;
+}
+
+
+#masthead{
+    background-color:#1d4554;
+    height: 400px;
+    margin: 0;   
+}
+#profile{
+    height: 300px;
+    width:300px; 
+    display: inline;
+    float: left;
+}
+
+#heading-box{
+    display: inline;
+    margin-top: 1%;
+    padding-bottom: 15px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding-bottom: 15px;
+    border-left: 2px solid white;
+}
+  
+h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-left: 20px;
+    text-shadow: 4px 2px 4px #000000;
+    
+    
+}
+ h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-left: 23px;
+    text-shadow: 4px 2px 4px #000000;
+ }
+ h4{
+    display: block;
+    color: #1d4554;
+}
+
+
+.full-width{
+    width: 100%;
+
+}
+.left-col{
+    float: left;
+    width: 30%;
+    background-color: aquamarine;
+}
+.mid-col{
+    width: 40%;
+    float: left;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.right-col{
+float: left;
+width: 30% ;
+background-color: lightgreen;
+text-align: right;
+}
+
+@media only screen and (min-width: 1000px){
+    
+#landing{
+    padding-top: 15%;
+    margin-left: 20%;
+}
+#masthead{
+        height: 100%;
+        
+    }
+h1{
+    font-size: 50px;
+    
+}
+ h2{
+    font-size: 25px;
+ }
+ h3{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: right;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: white;
+    
+   
+ }
+
+ 
+    
+}
