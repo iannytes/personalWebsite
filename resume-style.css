@@ -12,9 +12,11 @@ body{
     height: 400px;
     margin: 0;   
 }
+
 #profile{
     height: 300px;
     width:300px; 
+    border-radius: 50%;
     display: inline;
     float: left;
 }
@@ -56,40 +58,98 @@ h1{
     display: block;
     color: #1d4554;
 }
+.header-col{
+    display: none;
+}
 
-
+.photo-set{
+    width: 275px;
+    height: auto;
+    padding:0px;
+}
+.indicator{
+   display: none;
+}
 .full-width{
     width: 100%;
-
 }
-.left-col{
+.full-width p{
+    margin: 50px;
+}
+#left-col{
     float: left;
     width: 30%;
-    background-color: aquamarine;
+    
 }
-.mid-col{
+#mid-col{
     width: 40%;
     float: left;
-    background-color: whitesmoke;
     text-align: center;
 }
-.right-col{
+#right-col{
 float: left;
 width: 30% ;
-background-color: lightgreen;
 text-align: right;
 }
 
 @media only screen and (min-width: 1000px){
     
 #landing{
-    padding-top: 15%;
+    padding-top: 10%;
     margin-left: 20%;
 }
 #masthead{
-        height: 100%;
+        height: 80%;
+       
         
     }
+
+
+.right-aside{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.left-aside{
+    width: 45%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.left-aside h1{
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-shadow: none;
+}
+.indicator{
+    display: block; 
+}
+.header-col{
+    display: inline;
+    height:20%;
+    background-color: #1d4554;
+}
+.header-col h1{
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.header-col h1:hover{
+    cursor: pointer;
+    color: #24a368;
+}
 h1{
     font-size: 50px;
     
